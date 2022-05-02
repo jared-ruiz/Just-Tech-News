@@ -72,7 +72,7 @@ User.init(
         timestamps: false,
         
         //dont pluralize name of database tables
-        freezeTables: false,
+        freezeTableName: true,
         
         //use underscores instead of camel-casing (i.e. `comment_text` and not `commentText)
         underscored: true,
