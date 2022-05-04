@@ -1,4 +1,4 @@
-const Sequelize = require('sequelize/types');
+const Sequelize = require('sequelize');
 
 //execute whenever connection.js is used
 require('dotenv').config();
